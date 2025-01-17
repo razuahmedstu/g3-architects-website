@@ -10,6 +10,15 @@
   font-style: normal;
 }
 /* shared styles */
+.btn-primary{
+  background-color:#FF900E ;
+  padding: 20px 24px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color:#FFFFFF;
+  border-radius: 8px;
+  border: none;
+}
 .display-flex{
   display: flex;
 }
@@ -49,7 +58,7 @@
 }
 
 
-.navbar,.bannar{
+.navbar,.banner{
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -57,5 +66,21 @@
 .banner-contant{
   max-width: 850px;
   margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
 
+}
+.banner-title{
+  font-weight:700 ;
+  font-size: 4rem;
+}
+.banner-img{
+  width: 100%;
+}
+/* reponsive media quary */
+@media screen and (max-width:576px){
+  .nav-links, .navbar{
+    flex-direction: column;
+
+  }
 }
